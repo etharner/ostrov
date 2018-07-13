@@ -5,83 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Сдайте комнату, квартиру или дом на Mybnb (2018)</title>
     <link rel="shortcut icon" type="image/png" href="static/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
   </head>
   <body>
 
     <header>
-      <img src="static/img/logo.png">
+      <div><img src="static/img/logo.png"></div>
       <nav>
         <ul>
-          <li>Зарабатывайте</li>
-          <li>Преимущества</li>
-          <li>Прием гостей</li>
-          <li>Безопасность</li>
-          <li>Вопросы</li>
-          <li>Начать</li>
-          <li>О нас</li>
+          <li><a href="#earn">Зарабатывайте</a></li>
+          <li><a href="#why">Преимущества</a></li>
+          <li><a href="#reception">Прием гостей</a></li>
+          <li><a href="#security">Безопасность</a></li>
+          <li><a href="#question">Вопросы</a></li>
+          <li><a href="#start">Начать</a></li>
+          <li><a href="#about">О нас  </a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <section id="earn">
-
-        <div class="flex-container-wrap">
-          <div>
-            <h4>ПРИНИМАЙТЕ ГОСТЕЙ С MYBNB</h4>
-            <h2>Зарабатывайте на приёме гостей с <span>Mybnb</span></h2>
-          </div>
-
-          <div class="calculator">
-            <h3>Узнайте, сколько вы можете заработать</h3>
-
-            <form action="" method="GET">
-                <input type="text" name="city" value="Vladivostok">
-
-                <select name="guests">
-                  <option>1 гость</option>
-                  <option>2 гостя</option>
-                  <option>3 гостя</option>
-                  <option>4 гостя</option>
-                </select>
-
-                <select name="room">
-                  <option>Жильё целиком</option>
-                  <option selected>Отдельная комната</option>
-                  <option>Место в комнате</option>
-                </select>
-
-                <div class="price"><h1>37 342₽</h1></div>
-
-                <input type="submit" value="Начать">
-            </form>
-
-          </div>
-
-        </div>  
-
-        <div class="flex-container">
-
-          <div class="heading-text">
-            <h3>Что мне даст прием гостей с <span>Mybnb</span>?</h3>
-            <p>Сдавайте свободное жилье на <span>Mybnb</span> и зарабатывайте! Ваше объявление увидят миллионы путешественников, которые ищут уникальное
-            жилье, а мы позаботимся обо всем остальном.</p>
-          </div>
-
-          <div class="heading-text">
-            <h3>Сам себе хозяин</h3>
-            <p>На <span>Mybnb</span> вы сами устанавливаете доступность жилья, расценки, правила дома и способы общения с гостями. Вы также можете установить
-            время прибытия и организовать процесс так, как вам удобнее.</p>
-          </div>
-
-          <div class="heading-text"> 
-            <h3>Мы всегда готовы помочь</h3>
-            <p><span>Mybnb</span> предоставит вам инструменты для приема гостей, советы и круглосуточную поддержку.</p>
-          </div>
-
+        <div>
+          <h4>ПРИНИМАЙТЕ ГОСТЕЙ С MYBNB</h4>
+          <h2>Зарабатывайте на приёме гостей с <span>Mybnb</span></h2>
+        </div>
+        
+        <div class="calculator">
+          <h3>Узнайте, сколько вы можете заработать</h3>
+          <form action="" method="GET">
+              <input type="text" name="city" value="Vladivostok">
+              <select name="guests">
+                <option>1 гость</option>
+                <option>2 гостя</option>
+                <option>3 гостя</option>
+                <option>4 гостя</option>
+              </select>
+              <select name="room">
+                <option>Жильё целиком</option>
+                <option selected>Отдельная комната</option>
+                <option>Место в комнате</option>
+              </select>
+              <div class="price"><h1>37 342₽</h1></div>
+              <input type="submit" value="Начать">
+          </form>
         </div>
 
       </section>
+
+      <section id="why">
+        <div class="flex-container">
+        
+          <div class="heading-text">
+            <h3>Что мне даст прием гостей с <span>Mybnb</span>?</h3>
+            <p>
+              Сдавайте свободное жилье на <span>Mybnb</span> и зарабатывайте! Ваше объявление увидят миллионы путешественников, которые ищут уникальное жилье, а мы
+              позаботимся обо всем остальном.
+            </p>
+          </div>
+        
+          <div class="heading-text">
+            <h3>Сам себе хозяин</h3>
+            <p>
+              На <span>Mybnb</span> вы сами устанавливаете доступность жилья, расценки, правила дома и способы общения с гостями. Вы также
+              можете установить время прибытия и организовать процесс так, как вам удобнее.
+            </p>
+          </div>
+        
+          <div class="heading-text">
+            <h3>Мы всегда готовы помочь</h3>
+            <p>
+              <span>Mybnb</span> предоставит вам инструменты для приема гостей, советы и круглосуточную поддержку.
+            </p>
+          </div>
+        
+        </div>
+      </section>
+
       <section id="reception">
         <h1>Как принимать гостей на <span>Mybnb</span></h1>
 
@@ -132,6 +132,7 @@
         </div>
 
       </section>
+
       <section id="security">
         <h1>Безопасность на <span>Mybnb</span></h1>
 
@@ -263,7 +264,7 @@
 
     </main>
 
-    <footer>
+    <footer id="about">
 
       <nav>
         <ul>
